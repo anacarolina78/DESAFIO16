@@ -1,0 +1,180 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+header {
+  color: #fff;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo-ign img{
+width: 220px;
+height: 70px;
+position: relative;
+}
+.logo-ign{
+  width: 33%;
+}
+
+#login-menu {
+  display: flex;
+  margin-right: 80px;
+  align-items: center;
+  justify-content: center;
+}
+
+.icone-pesquisa {
+  height: 30px;
+  margin-right: 10px;
+}
+.icone-pesquisa:hover {
+  color: #ffffff;
+  transition: 0.5s;
+}
+.btn {
+  background-color: rgb(173, 25, 25);
+  color: #fff;
+  justify-content: end;
+  width: 60px;
+  height: 25px;
+  border: none;
+  border-radius: 40px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.btn:hover{
+transform: scale3d(1.1, 1.1, 1.1);
+}
+nav{
+  width: 800px;
+
+}
+nav ul {
+  justify-content: center;
+  display: flex;
+  list-style-type: none;
+  margin: 5px;
+}
+
+nav ul li {
+  margin-right: 60px;
+}
+
+nav ul li a {
+  color: black;
+  text-decoration: none;
+  top: 5%;
+}
+
+
+.content {
+  padding: 20px;
+}
+.small {
+  flex-grow: 1;
+  border-radius: 40px;
+  margin: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.double {
+  flex-grow: 2;
+  border-radius: 40px;
+  margin: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+#section-topics {
+  background-color:rgb(173, 25, 25);
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+  color: #fff;
+  text-align: center;
+  margin: 15px;
+  height: 50px;
+ 
+}
+
+.cards-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 20px;
+  margin: 10px;
+ 
+}
+.card-content{
+  height: 600px;
+  transition: 0.3s;
+  cursor: pointer;
+
+}
+.card-content:hover{
+transform: scale3d(1.1, 1.1, 1.1);
+}
+.card-banner1 {
+  position: relative;
+  top: -187px;
+  bottom: 0px;
+  width: 282px;
+  margin: 0px;
+  padding: 24px;
+  box-sizing: border-box;
+  background-color: rgba(220, 61, 53, 0.75);
+  color: #fff;
+  font-size: 18px;
+  letter-spacing: 0.005em;
+}
+.card-banner2 {
+  position: relative;
+  top: -180px;
+  bottom: 0px;
+  width: 282px;
+  margin: 0px;
+  padding: 24px;
+  box-sizing: border-box;
+  background-color: rgba(137, 78, 30, 0.75);
+  color: #fff;
+  font-size: 18px;
+  letter-spacing: 0.005em;
+}
+
+.card-banner3{
+  position: relative;
+  top: -187px;
+  bottom: 0px;
+  width: 282px;
+  margin: 0px;
+  padding: 24px;
+  box-sizing: border-box;
+  background-color: rgba(220, 61, 53, 0.75);
+  color: #fff;
+  font-size: 18px;
+  letter-spacing: 0.005em;
+}
+
+.card-banner4 {
+  position: relative;
+  top: -187px;
+  bottom: 0px;
+  width: 282px;
+  margin: 0px;
+  padding: 24px;
+  box-sizing: border-box;
+  background-color: rgba(43, 63, 195, 0.75);
+  color: #fff;
+  font-size: 18px;
+  letter-spacing: 0.005em;
+}
+
+  
